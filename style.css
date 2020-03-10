@@ -1,13 +1,21 @@
+body {
+    margin: 0 15%;
+}
+
 .hero {
     background-image: url('./assets/bg-topo.png');
     background-size: cover;
     background-position: center;
     color: white;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1.2rem;
 }
 
 form {
@@ -25,11 +33,53 @@ form input {
     width: 250px;
 }
 
+.logo-img {
+    display: flex;
+    justify-content: center;
+}
+
 .button-send {
-    width: 150px;
+    width: 250px;
     background-color: rgba(31,112,29,1);
     border: 1px rgba(31,112,29,1) solid;
     font-size: 19px;
     color: white;
+    
 }
 
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2vh;
+}
+
+.flex-item {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 480px;
+    padding: 10vh;
+    text-align: center;
+}
+
+#header-img {
+    width: 30%;
+}
+
+#form {
+    background-color: orange;
+    position: absolute;
+    top: 90vh;
+    left: 50%;
+    transform: translate(-50%, 5%);
+    width: 380px;
+    padding: 5vh;
+    margin: auto;
+}
+
+#main-title {
+    display: block;
+    padding: 5vh;
+    margin-left: 5vw;
+    width: 480px;
+}
