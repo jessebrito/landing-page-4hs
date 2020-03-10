@@ -1,0 +1,31 @@
+.hero {
+    background-image: url('./assets/bg-topo.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.logo-img {
+    display: flex;
+    justify-content: center;
+}
+
+#header-img {
+    width: 30%;
+}
+
+#main-title {
+    display: block;
+    padding: 5vh;
+    margin-left: 5vw;
+    width: 480px;
+}

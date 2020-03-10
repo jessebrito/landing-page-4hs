@@ -1,0 +1,105 @@
+body {
+    margin: 0 15%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-image: url('./assets/bg-topo.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+form input {
+    height: 38px;
+    padding: 6px 20px;   
+    border-radius: 4px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    margin: 15px;
+    font-size: 15px;
+    width: 250px;
+}
+
+.logo-img {
+    display: flex;
+    justify-content: center;
+}
+
+.button-send {
+    width: 250px;
+    background-color: rgba(31,112,29,1);
+    border: 1px rgba(31,112,29,1) solid;
+    font-size: 19px;
+    color: white; 
+}
+
+.flex-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "item1 form item2"
+    "item3 item4 item5";
+    padding: 2vh;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.item1 {
+    grid-area: item1;
+    padding: 10vh;
+    text-align: center;
+}
+.item2 {
+    grid-area: item2;
+    padding: 10vh;
+    text-align: center;
+}
+.item3 {
+    grid-area: item3;
+    padding: 10vh;
+    text-align: center;
+}
+.item4 {
+    grid-area: item4;
+    width: 480px;
+    padding: 10vh;
+    text-align: center;
+}
+.item5 {
+    grid-area: item5;
+    padding: 10vh;
+    text-align: center;
+}
+
+#header-img {
+    width: 30%;
+}
+
+.form {
+    grid-area: form;
+    background-color: orange;
+    padding: 5vh;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#main-title {
+    display: block;
+    padding: 5vh;
+    margin-left: 5vw;
+    width: 480px;
+}
