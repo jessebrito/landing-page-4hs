@@ -1,10 +1,4 @@
-body {
-    margin: 0 15%;
-}
-
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -105,18 +99,22 @@ form input {
     width: 200px;
 }
 
+header {
+    width: 70% !important;
+}
+
 .form {
     grid-area: form;
     background-color: orange;
-    padding: 5vh;
     max-width: 400px;
     margin: 0 auto;
 }
 
 #main-title {
-    display: block;
+    display: flex;
     padding: 5vh;
-    /* margin-left: 5vw; */
+    margin-left: 8vw;
+    flex-direction: column;
     max-width: 400px;
     width: 100%;
 }
@@ -128,6 +126,7 @@ form input {
     }
     #main-title {
         max-width: 320px;
+        margin-left: 5px;
     }
     form input {
         max-width: 224px;
@@ -140,6 +139,8 @@ form input {
 footer {
     background-color: #000;
 }
+
+
 
 footer .container {
     padding: 20px;
